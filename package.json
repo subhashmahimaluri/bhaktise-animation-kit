@@ -1,0 +1,17 @@
+{
+  "name": "bhaktise-animation-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion kit for Bhaktise animated story videos",
+  "scripts": {
+    "bundle": "remotion bundle src/index.jsx --out-dir build",
+    "demo": "remotion render build Demo out/demo.mp4 --concurrency=2 --crf=18",
+    "full": "bash render_full.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.546",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.546"
+  }
+}

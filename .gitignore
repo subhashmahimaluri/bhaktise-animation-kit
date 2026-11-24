@@ -1,0 +1,6 @@
+node_modules/
+out/
+build*/
+*.wav
+_a16.wav
+.DS_Store
